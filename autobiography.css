@@ -1,0 +1,109 @@
+ * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: darkslategrey;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 220px;
+      background-color: white;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      padding: 45px;
+    }
+
+    .sidebar h2 {
+      margin: 1 2 15px;
+      font-size: 30px;
+      text-align: center;
+      color: black;
+    }
+
+    .sidebar a {
+      color: black;
+      text-decoration: underline;
+      text-align: center;
+      padding: 20px 15px;
+      border-radius: 14px;
+      margin: 5px 0;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: gray;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      padding: 30px;
+      width: 100%;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .bio-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .bio-header img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 0px solid darkslategrey;
+    }
+
+    .bio-header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .hobby-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .hobby-list li {
+      padding: 8px;
+      background-color: #ecf0f1;
+      border-radius: 6px;
+      margin: 5px 0;
+    }
+
+    .memories img {
+      width: 300px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 10px 10px 0 0;
+    }
+
+    .wish {
+      background: #e8f4fd;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border-left: 5px solid #3498db;
+    }
+
+    .wish small {
+      display: block;
+      margin-top: 6px;
+      color: #555;
+    }
